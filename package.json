@@ -21,7 +21,8 @@
     "promise": "^8.1.0",
     "request": "^2.88.2",
     "sequelize": "^6.3.5",
-    "sql": "^0.78.0"
+    "sql": "^0.78.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {},
   "scripts": {

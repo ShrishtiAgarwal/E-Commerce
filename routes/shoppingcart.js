@@ -29,21 +29,18 @@ app.get('/shoppingcart/totalAmount/{cart_id}',(req,res)=>{
 
 })
 
-app.get('/products/{product_id}/reviews',(req,res)=>{
 
-})
+// app.get('/shoppingcart/saveForLater/{item_id}',(req,res)=>{
 
-app.get('/shoppingcart/saveForLater/{item_id}',(req,res)=>{
+// })
 
-})
+// app.get('/shoppingcart/saveForLater/{item_id}',(req,res)=>{
 
-app.get('/shoppingcart/saveForLater/{item_id}',(req,res)=>{
+// })
 
-})
+// app.get('/shoppingcart/getSaved/{cart_id}',(req,res)=>{
 
-app.get('/shoppingcart/getSaved/{cart_id}',(req,res)=>{
-
-})
+// })
 
 app.delete('/shoppingcart/removeProduct/{item_id}',(req,res)=>{
 

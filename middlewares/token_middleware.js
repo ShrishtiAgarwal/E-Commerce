@@ -36,4 +36,4 @@ const middle = (req,res,next) => {
 
 }
 
-module.exports=middle
+module.exports={middle}
