@@ -4,7 +4,8 @@ const Customer =require('../lib/models/Customer')
 const bcrypt = require('bcrypt')
 const {to} = require('await-to-js')
 const { async } = require('asyncawait')
-//--------------------------password encryption  ---------- ---------------- ---------- -- --- - ---- --- --//
+
+//==========================password encryption =============================================//
 
 const passwordHash= async (password) =>{
     const saltRounds=12
@@ -14,7 +15,7 @@ const passwordHash= async (password) =>{
 }
 
 
-// ======================================Register customer=======================================//
+//====================================Registercustomer=======================================//
 
 const customer= async(req,res)=>{
     console.log("here again")
@@ -64,7 +65,7 @@ const customer_login = async(req,res) =>{
     const email = req.body.email;
     await Customer.update({islogin:"true"},{where:{email:email}}).then(()=>{
         res.json(
-            { "payload" : "successfully updated"}
+            { "payload" : "successfully updated the details"}
         )}).catch(error => {
            res.json( {"error":"logout failed"})
         })

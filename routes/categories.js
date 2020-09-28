@@ -8,7 +8,7 @@ app.get('',(req,res)=>{
     
 })
 
-app.get('/{category_id}',(req,res)=>{
+app.get('/:id',(req,res)=>{
     const cat_id = req.params.id;
     categories_id(cat_id,res);
 })
