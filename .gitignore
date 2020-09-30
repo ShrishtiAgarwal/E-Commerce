@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+debug.log
+node_modules
+=======
 node_modules/
 yes/
 no/
+>>>>>>> 84786c39264977a83d1e8bd8f46643ab40df8c13
