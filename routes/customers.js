@@ -11,15 +11,15 @@ app.post('',(req,res)=>{
 
 })
 
-// app.post('/update',middle,Login,(req,res)=>{
-//     customer_update(req,res);
-// })
+app.post('/update',middle,Login,(req,res)=>{
+    customer_update(req,res);
+})
 
 
 
-// app.post('/login',(req,res)=>{
-//     customer_login(req,res);
-// })
+app.post('/login',(req,res)=>{
+    customer_login(req,res);
+})
 
 // app.post('/customers/facebook',(req,res)=>{
 
