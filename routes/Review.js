@@ -1,6 +1,6 @@
 const express = require('express')
 const app=express.Router()
-const  { get_review,post_review} = require("../services/Review")
+const  { get_review,post_review} = require("../services/review")
 // app.get('/tax',(req,res)=>{
 //     console.log("Hey")
 
